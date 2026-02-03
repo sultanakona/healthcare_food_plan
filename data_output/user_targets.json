@@ -1,0 +1,31 @@
+{
+  "inputs": {
+    "age": 24,
+    "gender": "string",
+    "height_cm": 112.58639295654478,
+    "weight_kg": 135.64554365239644,
+    "activity": "moderate",
+    "goal": "maintain",
+    "intensity": "standard",
+    "conditions": [
+      "string",
+      "string"
+    ],
+    "allergies": [
+      "string",
+      "string"
+    ]
+  },
+  "metrics": {
+    "bmi": 107.01,
+    "bmr_kcal": 1779.1,
+    "tdee_kcal": 2757.6
+  },
+  "targets": {
+    "calories": 2757.6,
+    "protein_g": 189.9,
+    "fat_g": 85.8,
+    "carbs_g": 306.5,
+    "fiber_g": 25.0
+  }
+}

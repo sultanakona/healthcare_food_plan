@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - DEBUG=False
+    volumes:
+      - ./data_output:/app/data_output
+      - ./data_raw:/app/data_raw
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+# Optional: Add a database service if needed in future
+#  db:
+#    image: postgres:15
+#    environment:
+#      POSTGRES_DB: nutrition_db
+#      POSTGRES_USER: nutrition_user
+#      POSTGRES_PASSWORD: changeme
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#    ports:
+#      - "5432:5432"
+
+#volumes:
+#  postgres_data:
