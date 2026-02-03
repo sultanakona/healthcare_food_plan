@@ -22,7 +22,8 @@ This system generates personalized daily and weekly meal plans based on:
 ✅ **Weekly Planning**: Generate 1-14 days of meal plans  
 
 ---
-
+## The project live link
+https://healthcare-food-plan.onrender.com
 ## 🏗️ Project Structure
 
 ```
@@ -413,9 +414,12 @@ python api/main.py  # ❌
 
 ## 📚 Documentation
 
-- **API Docs**: http://localhost:8000/docs (interactive)
-- **ReDoc**: http://localhost:8000/redoc (alternative UI)
-- **Technical Spec**: See `docs/AI_Nutrition_Recommendation_System.docx`
+- **API Docs**: https://healthcare-food-plan.onrender.com
+- **ReDoc**: [AI-Powered Nutrition Recommendation System.pdf](https://github.com/user-attachments/files/25041104/AI-Powered.Nutrition.Recommendation.System.pdf)
+
+- **Jason**:[api_json.pdf](https://github.com/user-attachments/files/25041173/api_json.pdf)
+
+
 
 ---
 
@@ -446,7 +450,12 @@ This project is for educational purposes.
 
 ## 📧 Contact
 
-For questions or support, please open an issue on GitHub.
+Mst:Sultana parvin Kona
+
+Junior AI Backend Developer
+
+Beuptech Agency
+
 
 ---
 
